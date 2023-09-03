@@ -1,4 +1,4 @@
-console.log("Collections.js run");
+console.log("Javascript code run");
 const navbarToggler = document.querySelector('.navbar__top--toggler');
 const navbarCollapse = document.querySelector('.navbar__collapse');
 

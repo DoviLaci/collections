@@ -20,13 +20,13 @@ body{
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 3rem; 
+    padding: 0 1rem; 
     font-size: 1.5rem;
 }
 
 // navbar section
 .navbar{
-    padding: 3rem 0;
+    padding: 1rem 1rem;
     position: relative;
 
     &__top{
@@ -90,7 +90,7 @@ body{
 
     &__collapse{
         position: absolute;
-        top: 2rem;
+        top: 1rem;
         left: 0;
         width: 80%;
         overflow: hidden;
@@ -103,11 +103,11 @@ body{
         }
 
         &--nav{
-            padding: 2rem;
+            padding:0;
             border-radius: 0.5rem;
 
             &.input__wrapper{
-                padding:2rem;
+                padding:3rem 0;
             }
 
             & input{
@@ -203,19 +203,15 @@ body{
 }
 a{
     color: $primary-color;
-    margin-top: 10px;
 }
 // galery section
 .galery{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0 3rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 0.5rem;
-    @include tablet{
-        padding: 3rem 8rem;
-    }
     @include desktop{
         grid-template-columns: repeat(3,1fr);
         padding: 3rem 0rem;
